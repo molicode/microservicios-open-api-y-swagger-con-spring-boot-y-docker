@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="transactions" />
+        <module name="customer" />
+        <module name="products" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="businessdomain" target="1.8" />
+      <module name="customer" target="1.8" />
+      <module name="eurekaserver" target="11" />
+      <module name="infraestructuradomain" target="1.8" />
+      <module name="paymentchainparent" target="1.8" />
+      <module name="products" target="1.8" />
+      <module name="transactions" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eurekaserver" options="-parameters" />
+    </option>
+  </component>
+</project>

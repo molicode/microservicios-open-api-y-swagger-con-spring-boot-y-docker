@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/businessdomain.iml" filepath="$PROJECT_DIR$/businessdomain/businessdomain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/customer/customer.iml" filepath="$PROJECT_DIR$/businessdomain/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paymentchainparent.iml" filepath="$PROJECT_DIR$/paymentchainparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/Products/products.iml" filepath="$PROJECT_DIR$/businessdomain/Products/products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/Transactions/transactions.iml" filepath="$PROJECT_DIR$/businessdomain/Transactions/transactions.iml" />
+    </modules>
+  </component>
+</project>
