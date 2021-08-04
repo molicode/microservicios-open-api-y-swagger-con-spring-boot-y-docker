@@ -1,0 +1,22 @@
+### YAML Template.
+#--- #self configuration
+#server:
+#  port: 8888
+#spring:
+#  application:
+#    name: config-server
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: /tmp/config-server-repo
+##          uri: file:///C:/Users/luism/workspace/spring/microservicios-open-api-y-swagger-con-spring-boot-y-docker/paymentchainparent/config-server-repo
+#          clone-on-start: true
+#  security:
+#    user:
+#      name: admin
+#      password: qwerty
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}

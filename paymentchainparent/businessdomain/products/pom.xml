@@ -12,6 +12,23 @@
     <artifactId>products</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>products</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Microservices that will management all products</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.27</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

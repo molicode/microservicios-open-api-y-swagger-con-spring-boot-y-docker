@@ -12,6 +12,12 @@
     <artifactId>infraestructuradomain</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>eurekaServer</module>
+        <module>adminServer</module>
+        <module>configServer</module>
+    </modules>
+
    <properties>
         <spring-cloud-dependencies.version>Hoxton.SR8</spring-cloud-dependencies.version>
         <spring-cloud-config-server.version>2.2.5.RELEASE</spring-cloud-config-server.version>
