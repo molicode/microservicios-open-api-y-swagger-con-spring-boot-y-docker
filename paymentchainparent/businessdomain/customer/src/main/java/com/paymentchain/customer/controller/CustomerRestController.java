@@ -13,6 +13,7 @@ import io.netty.channel.ChannelOption;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import io.netty.handler.timeout.WriteTimeoutHandler;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
@@ -37,8 +38,8 @@ public class CustomerRestController {
     @Autowired
     CustomerRepository customerRepository;
 
-//    @Value("${user.role}")
-//    private String role;
+    @Value("${user.role}")
+    private String role;
 
     private final WebClient.Builder webClientBuilder;
 
@@ -101,10 +102,10 @@ public class CustomerRestController {
         return customerRepository.findAll();
     }
 
-//    @GetMapping("/hello")
-//    public String sayHello() {
-//        return "Hello your role is: "+ role;
-//    }
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello your role is: "+ role;
+    }
 
     @GetMapping("/{id}")
     public Customer get(@PathVariable long id) {

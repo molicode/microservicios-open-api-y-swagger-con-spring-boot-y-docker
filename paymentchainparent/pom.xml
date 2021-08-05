@@ -151,7 +151,7 @@ but ussually we use maven clean install
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>digitalthinking/microservice-docker-${project.artifactId}</repository>
+                    <repository>paymentchain/microservice-docker-${project.artifactId}</repository>
                     <tag>${project.version}</tag>
                     <buildArgs>
                         <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
